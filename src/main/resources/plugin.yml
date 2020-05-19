@@ -1,0 +1,11 @@
+name: PlayerTracker
+version: ${project.version}
+main: mistaomega.pt.playertracker.PlayerTracker
+api-version: 1.13
+authors: [MistaOmega]
+description: Tracks a player
+commands:
+  track:
+    description: Track a player by name
+    aliases:
+      - playertrack
